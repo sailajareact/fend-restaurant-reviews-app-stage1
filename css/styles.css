@@ -108,9 +108,6 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  /* display: flex;
-  flex-flow: column wrap;
-  justify-content: center; */
   width: 100%;
   height: auto;
   /* background-color: #414e57; */
@@ -221,10 +218,6 @@ nav h1 a {
   /* z-index: 1000; */
 }
 
-/* .inside #maincontent{
-  width: 100%;
-} */
-
 .inside #map-container {
   /* background: blue none repeat scroll 0 0; */
   height: 30%;
@@ -235,17 +228,18 @@ nav h1 a {
   width: 100%;
   height: 300px;
 }
+
 .inside #map {
   background-color: #ccc;
   height: 100%;
   width: 100%;
 }
+
 .inside #footer {
   bottom: 0;
   position: absolute;
-  /* width: 100%; */
-  /* width: 50%; */
 }
+
 #restaurant-name {
   /* color: #f18200; */
   color: #ad1146;
@@ -257,13 +251,16 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
 }
+
 #restaurant-img {
 	width: 100%;
 }
+
 #restaurant-address {
   font-size: 14pt;
   margin: 10px 0px;
 }
+
 #restaurant-cuisine {
   /* background-color: #333; */
   background-color: #a02a2acc;
@@ -278,6 +275,7 @@ nav h1 a {
   text-transform: uppercase;
 	/* width: 90%; */
 }
+
 #restaurant-container{
 /* , #reviews-container { */
   border-bottom: 1px solid #d9d9d9;
@@ -287,10 +285,12 @@ nav h1 a {
   /* width: 50%; */
   width: auto; 
 }
+
 #reviews-container {
   padding: 30px 20px 80px;
   /* padding: 20px 20px, 80px; */
 }
+
 #reviews-container h2 {
   color: #b5431f;
   /* color: #f58500; */
@@ -299,10 +299,12 @@ nav h1 a {
   letter-spacing: -1px;
   padding-bottom: 1pt;
 }
+
 #reviews-list {
   margin: 0;
   padding: 0;
 }
+
 #reviews-list li {
   background-color: #fff;
     border: 2px solid #f3f3f3;
@@ -314,6 +316,7 @@ nav h1 a {
   position: relative;
   width: 85%;
 }
+
 #reviews-list li p {
   margin: 0 0 10px;
   font-size: 13pt;
@@ -342,14 +345,7 @@ nav h1 a {
   font-size: 13.5pt;
 }
 
-
-/* @media (min-width: 598px){
-  .filter-options{
-    flex-flow: 
-  }
-
-} */
-
+/* media queries to achieve responsive nature */
 @media (min-width: 594px){
   #restaurants-list li h1{
     height: 33px;
