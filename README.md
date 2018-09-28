@@ -39,10 +39,11 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 4. With your server running, visit the site: `http://localhost:8000`, and look around for a bit to see what the current experience looks like.
 
 
-#Dependencies
+## Dependencies
 
-# Leaflet.js and Mapbox:
-# Normalize.css
+* [Project Restaurant Reviews (Stage 1) - Starter Code](https://github.com/udacity/mws-restaurant-stage-1)
+* Leaflet.js and Mapbox:
+* Normalize.css
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information. 
 
 ### Note about ES6
